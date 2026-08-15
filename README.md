@@ -6,4 +6,4 @@ Kelompok 5
 4. Radithia Reysa Putra (25071100356)
 
 NILAI AUTO 1000000
-z
+zy
