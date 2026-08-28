@@ -1,0 +1,105 @@
+.Judul{
+    text-align: center;
+    font-size: 20px  ;
+    font-weight: bold;
+    line-height: 1.15;
+}
+.Judul::first-line{
+    background-color: cyan;
+}
+.Judul span{
+    background-color: blue;
+    color: white;
+}
+.teks1{
+    border: 1px solid red;
+    padding: 8px;
+    width: 800px;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: justify;
+
+}
+.teks1 span{
+    background-color: lime
+}
+
+.teks2{
+    font-size: 20px;
+    line-height: 1.15;
+}
+.teks2 span{
+    background-color: lime
+}
+.teks2 .Indonesia{
+    background-color: yellow;
+}
+
+.teks3{
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: justify;
+}
+.teks3 span{
+    background-color: lime;
+}
+
+.teks4 {
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: justify;
+}
+.teks4 span{
+    background-color: lime;
+}
+.teks4 .merdeka{
+    background-color: white;
+    font-style: italic ;
+    text-decoration: underline;
+}
+.teks4 .NRI{
+    background-color: white;
+    color: blue;
+}
+
+.teks4 .sumber{
+    background-color: white;
+    font-weight: bold;
+}
+.teks4 a:hover{
+    color: red;
+}
+
+.Tabel1{
+    border-collapse: collapse;
+    width: 800px;
+    font-size: 20px;
+}
+.Tabel1 td {
+    border: 1px solid black;
+    height: 40px;
+    padding: 8px;
+    color: red;
+    font-weight: bold;
+}
+
+.Pancasila{
+    text-align: center;
+    font-size: 20px  ;
+    font-weight: bold;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: cyan;
+}
+
+.Sila {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.15;
+}
+.Sila li{
+    background-color: yellow;
+    text-decoration: underline;
+    width: fit-content;
+}
