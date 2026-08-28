@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.konten{
+    text-align: center;
+}
+
+header > h1{
+    background-color: aqua;
+    font-size: 18px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+header > h2 {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+
+.paragraf{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.paragraf-pertama p{
+    border: 2px solid red;
+    padding: 5px 5px;
+}
+.highlight-lime{
+    background-color: lime;
+}
+.highlight-yellow{
+    background-color: yellow;
+}
+.underline{
+    text-decoration: underline;
+    font-style: italic;
+}
+.color-text{
+    color: blue;
+    font-weight: bold;
+}
+
+.sumber {
+    font-weight: bold;
+}
+a {
+    color: blue;
+    font-weight: bold;
+}
+a:hover {
+    color:red
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+td {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+.judul-pancasila {
+    text-align: center;
+    background-color: aqua;
+    font-size: 18px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pancasila li {
+    background-color: yellow;
+    width: fit-content;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    margin-bottom: 5px;
+    padding: 0 2px;
+}
