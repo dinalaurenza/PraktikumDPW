@@ -1,0 +1,163 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff5f8;
+    margin: 0;
+    padding: 20px;
+    color: #4a3038;
+}
+
+/* HEADER */
+.kepala {
+    border: 2px solid #e7a6b7;
+    background-color: #ffe3eb;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.kepala h1 {
+    color: #b8325b;
+    margin: 5px 0 15px;
+    font-size: 28px;
+}
+
+.kepala p {
+    margin: 10px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+/* NAVIGASI */
+.kepala nav ol {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 15px 0 0;
+    list-style: none;
+}
+
+.kepala nav li {
+    margin: 0;
+}
+
+.kepala nav a {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #d94f73;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.kepala nav a:hover {
+    background-color: #a92f51;
+    transform: translateY(-2px);
+}
+
+/* CONTENT */
+#content {
+    border: 2px solid #e7a6b7;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* BAGIAN ARTIKEL */
+#content > div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.artikel1,
+.artikel2 {
+    flex: 1;
+    border: 2px solid #f0b8c8;
+    background-color: #fff8fa;
+    padding: 20px;
+    margin: 0;
+    border-radius: 12px;
+    text-align:justify;
+    box-shadow: 0 3px 8px rgba(180, 80, 110, 0.12);
+}
+
+.artikel1 h2,
+.artikel2 h2 {
+    color: #b8325b;
+    margin-top: 0;
+    text-align: center;
+}
+
+.artikel1 p,
+.artikel2 p {
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+/* ASIDE / INFORMASI */
+.informasi {
+    flex: 1;
+    border: 2px solid #f0b8c8;
+    background-color: #fff3f6;
+    padding: 20px;
+    margin: 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(180, 80, 110, 0.12);
+    text-align: center;
+}
+
+.informasi h2 {
+    color: #b8325b;
+    margin-top: 5px;
+}
+
+.informasi p {
+    line-height: 1.6;
+}
+
+.informasi a {
+    color:#d94f73;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.informasi a:hover{
+    color: #b8325b;
+}
+/* GAMBAR */
+.informasi img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 0 15px;
+}
+
+/* FOOTER */
+.footer {
+    border: 2px solid #e7a6b7;
+    background-color: #ffe3eb;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.footer p {
+    margin: 5px;
+    color: #6b3545;
+    text-align: center;
+}
