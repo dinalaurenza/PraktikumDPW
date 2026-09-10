@@ -1,0 +1,108 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+  margin: 0;
+  padding: 0;
+}
+
+.Kepala{
+    background-color: rgb(2, 173, 173);
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#Pembuka, #Jadwal{
+    font-size: 25px;
+}
+#Acara{
+    font-size: 20px;
+}
+#Kontak{
+    font-size: 20px;
+}
+#Pembuka, #Jadwal, #Acara, #Kontak{
+    background-image: url(gambar/background-colorful-design-ai-generated-best-quality-hyper-realistic-wallpaper-image_1078161-202306.avif);
+    padding: 30px;
+}
+.paragraf1, .paragraf2{
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px black;
+    padding: 10px;
+}
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    padding: 4px;
+    border: 2px solid rgb(43, 42, 42);
+    letter-spacing: 3px;
+    box-shadow: 8px 8px 8px white;  
+}
+
+.sambutan:hover {
+  font-weight: bold;
+  background-color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+a:hover {
+    color: pink;
+}
+
+#Jadwal {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+main {
+    display: flex;
+}
+.Catatan{
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px black;
+    padding: 10px;
+}
+.Gambar1{
+    border: 2px dashed black;
+    text-align: center;
+}
+.Gambar2{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.Gambar3{
+    text-align: center;
+}
+
+.tempel{
+    background-color: pink;
+    border: 1px solid black;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    font-size: 25px;
+}
+body{
+    background-color: rgb(2, 173, 173);
+}
+.blockquote{
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px black;
+    padding: 10px;
+}
+
